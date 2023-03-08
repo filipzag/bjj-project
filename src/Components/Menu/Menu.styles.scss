@@ -1,0 +1,79 @@
+@import "../../Styles/_index.scss";
+
+.menu {
+    flex-basis: 10vh;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    @include display(flex, row, wrap, space-between);
+}
+
+nav {
+    width: 50%;
+    margin: 0.5rem;
+    background-color: rgb(24, 26, 27);
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0.5rem;
+    @include display(flex, row, wrap, space-around);
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(220, 218, 215);
+    position: relative;
+    padding: 6px 0;
+}
+
+nav a::before{
+ content: '';
+ position: absolute;
+ height: 0.3rem;
+ bottom: 0;
+ left: 0;
+ width: 0%;
+ background-color: red;
+ transition: all 0.4s ease;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.icon:hover {
+    animation: animate 0.5s ease backwards ;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(45deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+@import "../../Styles/_index.scss";
+
+header {
+ @include display(flex, column, nowrap, center)
+}
