@@ -16,7 +16,8 @@ export function Hero() {
         </h3>
       </div>
       <div className="hero__video">
-        <video src="https://www.youtube.com/watch?v=C-Wo1qmlhpI" height="500" controls muted></video>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/C-Wo1qmlhpI?si=HjT9Ms120QlUmrgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+//        <video src="https://www.youtube.com/watch?v=C-Wo1qmlhpI" height="500" controls muted></video>
       </div>
     </div>
   );
