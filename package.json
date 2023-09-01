@@ -2,7 +2,7 @@
   "name": "bjj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anamarincic.github.io/bjj-universum",
+  "homepage": "",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
