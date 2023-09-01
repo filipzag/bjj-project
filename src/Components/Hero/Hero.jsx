@@ -16,7 +16,7 @@ export function Hero() {
         </h3>
       </div>
       <div className="hero__video">
-        <video src={video} height="500" controls muted></video>
+        <video src="https://www.youtube.com/shorts/lDFhQHJKe44" height="500" controls muted></video>
       </div>
     </div>
   );
