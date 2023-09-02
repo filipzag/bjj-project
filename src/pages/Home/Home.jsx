@@ -56,12 +56,14 @@ export function Home() {
         <div className="video-holder">
           {showVideo && (
             <div className="video-holder__play">
-              <video
+		<iframe width="100%" height="500" src="https://www.youtube.com/embed/h7GaP4OIoKw?si=xxyiGBMXQf8ysA0f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+/*              <video
                 src={video}
                 width="100%"
                 height="500"
                 autoPlay
                 muted></video>
+*/		
               <div className="video-holder__close" onClick={closeVideo}>
                 <FontAwesomeIcon icon={faXmark} size="2xl" />
               </div>
